@@ -8,9 +8,8 @@ echo "Running container interactively"
 docker run -it --name temp-container t6-server-install
 
 # Commit the container as a new image
-read -p "Enter a name for the new image: " image_name
-docker commit temp-container "$image_name"
-echo "Image saved as $image_name"
+docker commit temp-container t6-server
+echo Image saved as t6-server
 
 # Clean up
 docker stop temp-container

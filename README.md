@@ -19,7 +19,7 @@ Thanks to [Sterbweise](https://github.com/Sterbweise) for creating the T6-Server
 
 ### Configuration
 
-Copied from the original repository: [ReadMe - Configuration](https://github.com/Sterbweise/T6Server?tab=readme-ov-file#configuration).
+**This chapter is copied from the T6Server Repository: [ReadMe - Configuration](https://github.com/Sterbweise/T6Server?tab=readme-ov-file#configuration).**
 
 After installation, the primary configuration file to modify is `/opt/T6Server/T6Server.sh`. This file contains essential settings for your Plutonium Call of Duty: Black Ops II server. Below are the key variables you should configure:
 
