@@ -10,5 +10,3 @@ RUN mkdir -p T6Server && wget -O T6Server.tar.gz https://github.com/Sterbweise/T
 
 # Set the entrypoint to a shell for interactivity
 ENTRYPOINT ["/bin/bash"]
-
-# RUN cd T6Server && chmod +x install.sh && sudo ./install.sh
