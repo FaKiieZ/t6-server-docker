@@ -4,7 +4,7 @@
 docker build -t t6-server-install .
 
 # Run the container interactively
-echo "Running container interactively. Perform your manual steps and then exit the shell."
+echo "Running container interactively. Perform `cd T6Server && chmod +x install.sh && sudo ./install.sh` and then exit the shell."
 docker run -it --name temp-container t6-server-install
 
 # Commit the container as a new image
